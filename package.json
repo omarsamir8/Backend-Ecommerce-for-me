@@ -2,11 +2,11 @@
   "name": "preparing-nodejs-course",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "nodemon server.js",
-    "start": "SET NODE_ENV=production & node server.js"
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",

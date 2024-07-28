@@ -2,7 +2,7 @@ const path = require("path");
 const express = require("express");
 const dotenv = require("dotenv");
 
-dotenv.config({ path: "config.env" });
+dotenv.config({ path: "./config.env" });
 const morgan = require("morgan");
 require("colors");
 const compression = require("compression");
